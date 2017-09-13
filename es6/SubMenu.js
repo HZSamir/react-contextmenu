@@ -248,7 +248,7 @@ var SubMenu = function (_AbstractMenu) {
                 _extends({}, menuProps, { role: 'menuitem', tabIndex: '-1', 'aria-haspopup': 'true' }),
                 React.createElement(
                     ListItem,
-                    _extends({}, menuItemProps, { button: true, onClick: this.handleClick }),
+                    _extends({}, menuItemProps, { dense: true, button: true, onClick: this.handleClick }),
                     React.createElement(ListItemText, { primary: title }),
                     React.createElement(ExpandMore, null)
                 ),

@@ -239,7 +239,7 @@ export default class SubMenu extends AbstractMenu {
         return (
             <nav {...menuProps} role='menuitem' tabIndex='-1' aria-haspopup='true'>
 
-                <ListItem {...menuItemProps} button onClick={this.handleClick}>
+                <ListItem {...menuItemProps} dense button onClick={this.handleClick}>
                     <ListItemText primary={title} />
                     <ExpandMore />
                 </ListItem>
