@@ -1,0 +1,33 @@
+/* istanbul ignore next */'use strict';Object.defineProperty(exports, "__esModule", { value: true });exports.MENU_HIDE = exports.MENU_SHOW = undefined;var cov_27lkft244l = function () {var path = '/home/samir/Desktop/test/src/actions.js',hash = '35ec7e7fe96ca6e1884cad0900c677a20e7839ed',global = new Function('return this')(),gcv = '__coverage__',coverageData = { path: '/home/samir/Desktop/test/src/actions.js', statementMap: { '0': { start: { line: 5, column: 25 }, end: { line: 5, column: 49 } }, '1': { start: { line: 6, column: 25 }, end: { line: 6, column: 49 } }, '2': { start: { line: 14, column: 4 }, end: { line: 19, column: 5 } }, '3': { start: { line: 15, column: 8 }, end: { line: 15, column: 68 } }, '4': { start: { line: 17, column: 8 }, end: { line: 17, column: 52 } }, '5': { start: { line: 18, column: 8 }, end: { line: 18, column: 60 } }, '6': { start: { line: 21, column: 4 }, end: { line: 24, column: 5 } }, '7': { start: { line: 22, column: 8 }, end: { line: 22, column: 36 } }, '8': { start: { line: 23, column: 8 }, end: { line: 23, column: 28 } }, '9': { start: { line: 28, column: 4 }, end: { line: 28, column: 82 } }, '10': { start: { line: 32, column: 4 }, end: { line: 32, column: 82 } } }, fnMap: { '0': { name: 'dispatchGlobalEvent', decl: { start: { line: 9, column: 16 }, end: { line: 9, column: 35 } }, loc: { start: { line: 9, column: 70 }, end: { line: 25, column: 1 } }, line: 9 }, '1': { name: 'showMenu', decl: { start: { line: 27, column: 16 }, end: { line: 27, column: 24 } }, loc: { start: { line: 27, column: 44 }, end: { line: 29, column: 1 } }, line: 27 }, '2': { name: 'hideMenu', decl: { start: { line: 31, column: 16 }, end: { line: 31, column: 24 } }, loc: { start: { line: 31, column: 44 }, end: { line: 33, column: 1 } }, line: 31 } }, branchMap: { '0': { loc: { start: { line: 9, column: 53 }, end: { line: 9, column: 68 } }, type: 'default-arg', locations: [{ start: { line: 9, column: 62 }, end: { line: 9, column: 68 } }], line: 9 }, '1': { loc: { start: { line: 14, column: 4 }, end: { line: 19, column: 5 } }, type: 'if', locations: [{ start: { line: 14, column: 4 }, end: { line: 19, column: 5 } }, { start: { line: 14, column: 4 }, end: { line: 19, column: 5 } }], line: 14 }, '2': { loc: { start: { line: 21, column: 4 }, end: { line: 24, column: 5 } }, type: 'if', locations: [{ start: { line: 21, column: 4 }, end: { line: 24, column: 5 } }, { start: { line: 21, column: 4 }, end: { line: 24, column: 5 } }], line: 21 }, '3': { loc: { start: { line: 27, column: 25 }, end: { line: 27, column: 34 } }, type: 'default-arg', locations: [{ start: { line: 27, column: 32 }, end: { line: 27, column: 34 } }], line: 27 }, '4': { loc: { start: { line: 31, column: 25 }, end: { line: 31, column: 34 } }, type: 'default-arg', locations: [{ start: { line: 31, column: 32 }, end: { line: 31, column: 34 } }], line: 31 } }, s: { '0': 0, '1': 0, '2': 0, '3': 0, '4': 0, '5': 0, '6': 0, '7': 0, '8': 0, '9': 0, '10': 0 }, f: { '0': 0, '1': 0, '2': 0 }, b: { '0': [0], '1': [0, 0], '2': [0, 0], '3': [0], '4': [0] }, _coverageSchema: '332fd63041d2c1bcb487cc26dd0d5f7d97098a6c' },coverage = global[gcv] || (global[gcv] = {});if (coverage[path] && coverage[path].hash === hash) {return coverage[path];}coverageData.hash = hash;return coverage[path] = coverageData;}();exports.
+
+
+
+
+
+
+
+dispatchGlobalEvent = dispatchGlobalEvent; /* istanbul ignore next */exports.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+showMenu = showMenu; /* istanbul ignore next */exports.
+
+
+
+hideMenu = hideMenu;var /* istanbul ignore next */_objectAssign = require('object-assign'); /* istanbul ignore next */var _objectAssign2 = _interopRequireDefault(_objectAssign);var /* istanbul ignore next */_helpers = require('./helpers'); /* istanbul ignore next */function _interopRequireDefault(obj) {return obj && obj.__esModule ? obj : { default: obj };}const MENU_SHOW = /* istanbul ignore next */exports.MENU_SHOW = (cov_27lkft244l.s[0]++, 'REACT_CONTEXTMENU_SHOW');const MENU_HIDE = /* istanbul ignore next */exports.MENU_HIDE = (cov_27lkft244l.s[1]++, 'REACT_CONTEXTMENU_HIDE');function dispatchGlobalEvent(eventName, opts, target = /* istanbul ignore next */(cov_27lkft244l.b[0][0]++, window)) {/* istanbul ignore next */cov_27lkft244l.f[0]++; // Compatibale with IE
+    // @see http://stackoverflow.com/questions/26596123/internet-explorer-9-10-11-event-constructor-doesnt-work
+    let event; /* istanbul ignore next */cov_27lkft244l.s[2]++;if (typeof window.CustomEvent === 'function') {/* istanbul ignore next */cov_27lkft244l.b[1][0]++;cov_27lkft244l.s[3]++;event = new window.CustomEvent(eventName, { detail: opts });} else {/* istanbul ignore next */cov_27lkft244l.b[1][1]++;cov_27lkft244l.s[4]++;event = document.createEvent('CustomEvent'); /* istanbul ignore next */cov_27lkft244l.s[5]++;event.initCustomEvent(eventName, false, true, opts);} /* istanbul ignore next */cov_27lkft244l.s[6]++;if (target) {/* istanbul ignore next */cov_27lkft244l.b[2][0]++;cov_27lkft244l.s[7]++;target.dispatchEvent(event); /* istanbul ignore next */cov_27lkft244l.s[8]++; /* istanbul ignore next */(0, _objectAssign2.default)( /* istanbul ignore next */_helpers.store, opts);} else /* istanbul ignore next */{cov_27lkft244l.b[2][1]++;}}function showMenu(opts = /* istanbul ignore next */(cov_27lkft244l.b[3][0]++, {}), target) {/* istanbul ignore next */cov_27lkft244l.f[1]++;cov_27lkft244l.s[9]++;dispatchGlobalEvent(MENU_SHOW, /* istanbul ignore next */(0, _objectAssign2.default)({}, opts, { type: MENU_SHOW }), target);}function hideMenu(opts = /* istanbul ignore next */(cov_27lkft244l.b[4][0]++, {}), target) {/* istanbul ignore next */cov_27lkft244l.f[2]++;cov_27lkft244l.s[10]++;dispatchGlobalEvent(MENU_HIDE, /* istanbul ignore next */(0, _objectAssign2.default)({}, opts, { type: MENU_HIDE }), target);}

@@ -1,0 +1,39 @@
+'use strict';var _actions = require('../src/actions');
+
+
+let showCallback = null;
+let hideCallback = null;
+let eventObj = {};
+
+describe('actions test', () => {
+    beforeAll(() => {
+        showCallback = jest.fn(e => {
+            eventObj = e;
+            console.log('I\'ll be called on show');
+        });
+        window.addEventListener(_actions.MENU_SHOW, showCallback);
+
+        hideCallback = jest.fn(e => {
+            eventObj = e;
+            console.log('I\'ll be called on hide');
+        });
+        window.addEventListener(_actions.MENU_HIDE, hideCallback);
+    });
+
+    test('showMenu', () => {
+        (0, _actions.showMenu)();
+        expect(showCallback).toHaveBeenCalled();
+        expect(eventObj.type).toBe(_actions.MENU_SHOW);
+    });
+
+    test('hideMenu', () => {
+        (0, _actions.hideMenu)();
+        expect(hideCallback).toHaveBeenCalled();
+        expect(eventObj.type).toBe(_actions.MENU_HIDE);
+    });
+
+    afterAll(() => {
+        window.removeEventListener(_actions.MENU_SHOW, showCallback);
+        window.removeEventListener(_actions.MENU_HIDE, hideCallback);
+    });
+});

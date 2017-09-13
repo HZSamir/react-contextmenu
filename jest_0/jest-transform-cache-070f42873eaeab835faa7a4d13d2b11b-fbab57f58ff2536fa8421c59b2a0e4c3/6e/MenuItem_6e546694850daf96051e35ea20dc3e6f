@@ -1,0 +1,72 @@
+/* istanbul ignore next */'use strict';Object.defineProperty(exports, "__esModule", { value: true });exports.default = undefined;var cov_kaiewqcx2 = function () {var path = '/home/samir/Desktop/test/src/MenuItem.js',hash = 'af726046f93ef9d078f04558eb37b06ac515da8b',global = new Function('return this')(),gcv = '__coverage__',coverageData = { path: '/home/samir/Desktop/test/src/MenuItem.js', statementMap: { '0': { start: { line: 29, column: 20 }, end: { line: 29, column: 32 } }, '1': { start: { line: 32, column: 27 }, end: { line: 32, column: 31 } }, '2': { start: { line: 33, column: 28 }, end: { line: 33, column: 32 } }, '3': { start: { line: 37, column: 8 }, end: { line: 37, column: 31 } }, '4': { start: { line: 39, column: 8 }, end: { line: 39, column: 62 } }, '5': { start: { line: 39, column: 55 }, end: { line: 39, column: 62 } }, '6': { start: { line: 41, column: 8 }, end: { line: 46, column: 10 } }, '7': { start: { line: 48, column: 8 }, end: { line: 48, column: 44 } }, '8': { start: { line: 48, column: 37 }, end: { line: 48, column: 44 } }, '9': { start: { line: 50, column: 8 }, end: { line: 50, column: 19 } }, '10': { start: { line: 54, column: 70 }, end: { line: 54, column: 80 } }, '11': { start: { line: 55, column: 35 }, end: { line: 59, column: 10 } }, '12': { start: { line: 61, column: 8 }, end: { line: 71, column: 10 } }, '13': { start: { line: 66, column: 32 }, end: { line: 66, column: 47 } } }, fnMap: { '0': { name: '(anonymous_0)', decl: { start: { line: 32, column: 21 }, end: { line: 32, column: 22 } }, loc: { start: { line: 32, column: 27 }, end: { line: 32, column: 31 } }, line: 32 }, '1': { name: '(anonymous_1)', decl: { start: { line: 33, column: 22 }, end: { line: 33, column: 23 } }, loc: { start: { line: 33, column: 28 }, end: { line: 33, column: 32 } }, line: 33 }, '2': { name: '(anonymous_2)', decl: { start: { line: 36, column: 18 }, end: { line: 36, column: 19 } }, loc: { start: { line: 36, column: 29 }, end: { line: 51, column: 5 } }, line: 36 }, '3': { name: '(anonymous_3)', decl: { start: { line: 53, column: 4 }, end: { line: 53, column: 5 } }, loc: { start: { line: 53, column: 13 }, end: { line: 72, column: 5 } }, line: 53 }, '4': { name: '(anonymous_4)', decl: { start: { line: 66, column: 21 }, end: { line: 66, column: 22 } }, loc: { start: { line: 66, column: 30 }, end: { line: 66, column: 49 } }, line: 66 } }, branchMap: { '0': { loc: { start: { line: 39, column: 8 }, end: { line: 39, column: 62 } }, type: 'if', locations: [{ start: { line: 39, column: 8 }, end: { line: 39, column: 62 } }, { start: { line: 39, column: 8 }, end: { line: 39, column: 62 } }], line: 39 }, '1': { loc: { start: { line: 39, column: 12 }, end: { line: 39, column: 53 } }, type: 'binary-expr', locations: [{ start: { line: 39, column: 12 }, end: { line: 39, column: 31 } }, { start: { line: 39, column: 35 }, end: { line: 39, column: 53 } }], line: 39 }, '2': { loc: { start: { line: 48, column: 8 }, end: { line: 48, column: 44 } }, type: 'if', locations: [{ start: { line: 48, column: 8 }, end: { line: 48, column: 44 } }, { start: { line: 48, column: 8 }, end: { line: 48, column: 44 } }], line: 48 }, '3': { loc: { start: { line: 55, column: 59 }, end: { line: 55, column: 93 } }, type: 'binary-expr', locations: [{ start: { line: 55, column: 59 }, end: { line: 55, column: 69 } }, { start: { line: 55, column: 73 }, end: { line: 55, column: 93 } }], line: 55 }, '4': { loc: { start: { line: 64, column: 61 }, end: { line: 64, column: 88 } }, type: 'cond-expr', locations: [{ start: { line: 64, column: 72 }, end: { line: 64, column: 78 } }, { start: { line: 64, column: 81 }, end: { line: 64, column: 88 } }], line: 64 }, '5': { loc: { start: { line: 65, column: 34 }, end: { line: 65, column: 63 } }, type: 'cond-expr', locations: [{ start: { line: 65, column: 44 }, end: { line: 65, column: 56 } }, { start: { line: 65, column: 59 }, end: { line: 65, column: 63 } }], line: 65 }, '6': { loc: { start: { line: 69, column: 17 }, end: { line: 69, column: 42 } }, type: 'cond-expr', locations: [{ start: { line: 69, column: 27 }, end: { line: 69, column: 31 } }, { start: { line: 69, column: 34 }, end: { line: 69, column: 42 } }], line: 69 } }, s: { '0': 0, '1': 0, '2': 0, '3': 0, '4': 0, '5': 0, '6': 0, '7': 0, '8': 0, '9': 0, '10': 0, '11': 0, '12': 0, '13': 0 }, f: { '0': 0, '1': 0, '2': 0, '3': 0, '4': 0 }, b: { '0': [0, 0], '1': [0, 0], '2': [0, 0], '3': [0, 0], '4': [0, 0], '5': [0, 0], '6': [0, 0] }, _coverageSchema: '332fd63041d2c1bcb487cc26dd0d5f7d97098a6c' },coverage = global[gcv] || (global[gcv] = {});if (coverage[path] && coverage[path].hash === hash) {return coverage[path];}coverageData.hash = hash;return coverage[path] = coverageData;}();var _extends = Object.assign || function (target) {for (var i = 1; i < arguments.length; i++) {var source = arguments[i];for (var key in source) {if (Object.prototype.hasOwnProperty.call(source, key)) {target[key] = source[key];}}}return target;};var /* istanbul ignore next */_react = require('react'); /* istanbul ignore next */var _react2 = _interopRequireDefault(_react);
+var /* istanbul ignore next */_propTypes = require('prop-types'); /* istanbul ignore next */var _propTypes2 = _interopRequireDefault(_propTypes);
+var /* istanbul ignore next */_classnames = require('classnames'); /* istanbul ignore next */var _classnames2 = _interopRequireDefault(_classnames);
+var /* istanbul ignore next */_objectAssign = require('object-assign'); /* istanbul ignore next */var _objectAssign2 = _interopRequireDefault(_objectAssign);
+
+var /* istanbul ignore next */_actions = require('./actions');
+var /* istanbul ignore next */_helpers = require('./helpers'); /* istanbul ignore next */function _interopRequireDefault(obj) {return obj && obj.__esModule ? obj : { default: obj };}
+
+class MenuItem extends /* istanbul ignore next */_react.Component {/* istanbul ignore next */constructor(...args) {var _temp;return _temp = super(...args), this.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        handleClick = event => {/* istanbul ignore next */cov_kaiewqcx2.f[2]++;cov_kaiewqcx2.s[3]++;
+            event.preventDefault(); /* istanbul ignore next */cov_kaiewqcx2.s[4]++;
+
+            if ( /* istanbul ignore next */(cov_kaiewqcx2.b[1][0]++, this.props.disabled) || /* istanbul ignore next */(cov_kaiewqcx2.b[1][1]++, this.props.divider)) {/* istanbul ignore next */cov_kaiewqcx2.b[0][0]++;cov_kaiewqcx2.s[5]++;return;} else /* istanbul ignore next */{cov_kaiewqcx2.b[0][1]++;}cov_kaiewqcx2.s[6]++;
+
+            /* istanbul ignore next */(0, _helpers.callIfExists)(
+            this.props.onClick,
+            event,
+            /* istanbul ignore next */(0, _objectAssign2.default)({}, this.props.data, /* istanbul ignore next */_helpers.store.data),
+            /* istanbul ignore next */_helpers.store.target); /* istanbul ignore next */cov_kaiewqcx2.s[7]++;
+
+
+            if (this.props.preventClose) {/* istanbul ignore next */cov_kaiewqcx2.b[2][0]++;cov_kaiewqcx2.s[8]++;return;} else /* istanbul ignore next */{cov_kaiewqcx2.b[2][1]++;}cov_kaiewqcx2.s[9]++;
+
+            /* istanbul ignore next */(0, _actions.hideMenu)();
+        }, _temp;}
+
+    render() {/* istanbul ignore next */cov_kaiewqcx2.f[3]++;var _ref = (cov_kaiewqcx2.s[10]++,
+        this.props); /* istanbul ignore next */const disabled = _ref.disabled,divider = _ref.divider,children = _ref.children,attributes = _ref.attributes,selected = _ref.selected;
+        const menuItemClassNames = /* istanbul ignore next */(cov_kaiewqcx2.s[11]++, /* istanbul ignore next */(0, _classnames2.default)( /* istanbul ignore next */_helpers.cssClasses.menuItem, /* istanbul ignore next */(cov_kaiewqcx2.b[3][0]++, attributes) && /* istanbul ignore next */(cov_kaiewqcx2.b[3][1]++, attributes.className), {
+            [/* istanbul ignore next */_helpers.cssClasses.menuItemDisabled]: disabled,
+            [/* istanbul ignore next */_helpers.cssClasses.menuItemDivider]: divider,
+            [/* istanbul ignore next */_helpers.cssClasses.menuItemSelected]: selected })); /* istanbul ignore next */cov_kaiewqcx2.s[12]++;
+
+
+        return (
+            /* istanbul ignore next */_react2.default.createElement( /* istanbul ignore next */'div', /* istanbul ignore next */_extends({},
+                attributes, { className: menuItemClassNames,
+                    role: 'menuitem', tabIndex: '-1', /* istanbul ignore next */'aria-disabled': disabled ? /* istanbul ignore next */(cov_kaiewqcx2.b[4][0]++, 'true') : /* istanbul ignore next */(cov_kaiewqcx2.b[4][1]++, 'false'),
+                    /* istanbul ignore next */'aria-orientation': divider ? /* istanbul ignore next */(cov_kaiewqcx2.b[5][0]++, 'horizontal') : /* istanbul ignore next */(cov_kaiewqcx2.b[5][1]++, null),
+                    ref: _ref2 => {/* istanbul ignore next */cov_kaiewqcx2.f[4]++;cov_kaiewqcx2.s[13]++;this.ref = _ref2;},
+                    onMouseMove: this.props.onMouseMove, onMouseLeave: this.props.onMouseLeave,
+                    onTouchEnd: this.handleClick, onClick: this.handleClick }),
+                divider ? /* istanbul ignore next */(cov_kaiewqcx2.b[6][0]++, null) : /* istanbul ignore next */(cov_kaiewqcx2.b[6][1]++, children)));
+
+
+    }} /* istanbul ignore next */exports.default = MenuItem;MenuItem.propTypes = { children: /* istanbul ignore next */_propTypes2.default.node, attributes: /* istanbul ignore next */_propTypes2.default.object, data: /* istanbul ignore next */_propTypes2.default.object, disabled: /* istanbul ignore next */_propTypes2.default.bool, divider: /* istanbul ignore next */_propTypes2.default.bool, preventClose: /* istanbul ignore next */_propTypes2.default.bool, onClick: /* istanbul ignore next */_propTypes2.default.func, selected: /* istanbul ignore next */_propTypes2.default.bool, onMouseMove: /* istanbul ignore next */_propTypes2.default.func, onMouseLeave: /* istanbul ignore next */_propTypes2.default.func }; /* istanbul ignore next */MenuItem.defaultProps = { disabled: false, data: {}, divider: false, attributes: {}, preventClose: false, onClick() {/* istanbul ignore next */cov_kaiewqcx2.s[0]++;return null;}, children: null, selected: false, onMouseMove: () => {/* istanbul ignore next */cov_kaiewqcx2.f[0]++;cov_kaiewqcx2.s[1]++;return null;}, onMouseLeave: () => {/* istanbul ignore next */cov_kaiewqcx2.f[1]++;cov_kaiewqcx2.s[2]++;return null;} };
